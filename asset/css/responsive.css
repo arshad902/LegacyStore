@@ -1,0 +1,114 @@
+@media (max-width: 1030px) {
+    /* Home CSS */
+    .home .home-banner-1,
+    .home .home-banner-2{
+        background-position: 65% center;
+        min-height: 550px;
+    }
+    .home .home-banner .home-banner-text{
+        transform: translate(-80%, -50%);
+    }
+    /* Offer CSS */
+    .offers .offer-box .offer-info .heading-bigger{
+        font-size: 1.5rem;
+    }
+    .offers .offer-box .offer-info .offer-title-1{
+        font-size: 0.9rem;
+    }
+    .offers .offer-box .offer-info .btn-outline-danger{
+        height: 40px;
+        width: 110px;
+        font-size: 0.9rem;
+    }
+    /* Up to 70% off */
+    .sale-image-70{
+    height: 200px;
+}
+    .products .up_to_content h2{
+    font-size: 1.5rem;
+}
+
+/* Special CSS */
+.special .countdown-container .countdown-counter li{
+    padding: 1.5rem 1rem;
+}
+}
+@media (max-width: 991px) {
+    /* Home CSS */
+    .home .home-banner .home-banner-text{
+        transform: translate(-66%, -50%);
+    }
+
+    /* Up to 70% off */
+    .sale-image-70{
+    height: 190px;
+}
+    .products .up_to_content h2{
+    font-size: 1.6rem;
+}
+
+/* Special CSS */
+.special .countdown-container{
+    padding-top: 1rem;
+    padding-bottom: 5rem;
+}
+.special .countdown-container .countdown-counter li{
+    width: 20%;
+}
+}
+@media (max-width: 767px) {
+    /* Home CSS */
+    .home .home-banner-1{
+        background-position: ;
+        min-height: 450px;
+    }
+    .home .home-banner-2{
+        background-position: ;
+        min-height: 450px;
+    }
+    .home .home-banner .home-banner-text{
+        /* text-align: center; */
+        width: 100%;
+        transform: translate(-50%, -60%);
+    }
+    .home .home-banner .home-banner-text h1{
+        font-size: 1.3rem;
+    }
+    .home .home-banner .home-banner-text h2{
+        font-size: 1rem;
+    }
+    .home .home-banner .home-banner-text h4{
+        font-size: 0.8rem;
+    }
+    .home .home-banner .home-banner-text .btn-danger{
+        padding: 0.5rem 0.5rem;
+        margin-top: 50px;
+        width: 130px;
+        height: 30px;
+        
+    }
+    .home .home-banner .home-banner-text a{
+        font-size: 0.6rem;
+        font-weight: 600;
+    }
+
+    /* Up to 70% off */
+    .sale-image-70{
+    height: 130px;
+}
+    .products .up_to_content h2{
+    font-size: 0.7rem;
+}
+
+/* Special CSS */
+.special .countdown-container .countdown-counter li{
+    width: 30%;
+    margin-top: 1rem;
+}
+}
+
+@media (max-width: 767px){
+    .products .up_to_content h2{
+    font-size: 0.625rem;
+}
+}
